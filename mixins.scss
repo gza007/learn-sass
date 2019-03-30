@@ -1,5 +1,9 @@
+$border-style: solid;
+
 @mixin border-width($thickness) {
     border-width: $thickness; 
+    @content;
+    border-style: $border-style;
 }
 
 img { @include border-width(10px); }
