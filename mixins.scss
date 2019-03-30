@@ -1,5 +1,5 @@
-@mixin border-thickness($thickness) {
-    border-radius: $thickness; 
+@mixin border-width($thickness) {
+    border-width: $thickness; 
 }
 
-img { @include border-thickness(10px); }
+img { @include border-width(10px); }
