@@ -6,4 +6,4 @@ $border-style: solid;
     border-style: $border-style;
 }
 
-img { @include border-width(10px); }
+img { @include border-width(10px); }   
